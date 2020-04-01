@@ -1,0 +1,18 @@
+#logo{
+    background: #01DFA5;
+}
+#menu ul li:hover{
+    background: #01DFA5;
+}
+.leermas{
+
+    background: #01DFA5;
+
+
+}
+
+body{
+    background: url('../img/aguamarina.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}

@@ -1,0 +1,18 @@
+#logo{
+    background: #F781F3;
+}
+#menu ul li:hover{
+    background: #F781F3;
+}
+.leermas{
+
+    background: #F781F3;
+
+
+}
+
+body{
+    background: url('../img/fresa.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}

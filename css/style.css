@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.clearfix{
+    float:none;
+    clear: both;
+}
+
+.logoinst{
+    width:60px;
+    height: 60px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+
+#global{
+    width:65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding:25px;
+    background:white;
+    box-shadow: 0px 0px 4px #ccc;
+}
+
+#logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 90px;
+    color: black;
+    text-align: center;
+    width: 385px;
+    height: 80px;
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+#menu{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    background: #333;
+    width:100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#menu ul{
+    line-height: 46px;
+    list-style: none;
+    transition: all 300;
+}
+
+#menu  ul li{
+    height: 46px;
+    display: inline-block;
+}
+
+
+#menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+
+#posts{
+    width: 60%;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    clear: both;
+}
+.post{
+    padding:7px;
+}
+
+.post h3{
+    font-size:25px;
+    color:black;
+
+}
+
+.post .date{
+    display: block;
+    color:grey;
+    margin-top: 10px;
+}
+
+.img-post{
+  width: 100%;
+  height: auto;
+}
+
+.post p {
+    margin-top:10px;
+    margin-bottom:20px;
+    line-height: 19px;
+    text-align:justify;
+
+}
+
+.leermas{
+    font-size: 14px;
+    text-align: center;
+    padding:15px;
+    color:white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom:20px;
+    display:block;
+
+}
+
+#sidebar{
+    font-family: 'Courier New', Courier, monospace;
+    width: 25%;
+    float: right;
+    padding: 20px;
+}
+
+#sidebar h3{
+    margin-top:50px;
+    margin-bottom:20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+    background: url('../img/lines.png') repeat-x;
+}
+#sidebar h4 span{
+    background: white;
+    padding:5px;
+}
+
+#sidebar img{
+    width:50%;
+    display:block;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 150px;
+}
+
+#sidebar p{
+    font-size: 18px;
+
+    text-align: justify;
+
+
+
+}
+
+#logout{
+    text-decoration:none;
+    color: black;
+    font-weight:bold;
+
+    font-size: 12px;
+
+}
+
+form input[type='text'],
+form input[type='email'],
+form input[type='password']{
+    padding:5px;
+    border-radius: 2px;
+    border: #ccc 1px solid;
+    width:100%;
+    margin-bottom:10px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 2px rgb(65, 60, 60);
+
+}
+
+form label{
+    font-weight: bolder;
+}
+
+form input[type='submit']{
+    background: #235e3d;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    width: 25%;
+    padding:5px;
+    color:black;
+    border-radius: 30px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 3px grey;
+    cursor: pointer;
+}
+
+footer{
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    height: 47px;
+    background: rgb(51, 51, 51, 0.70);
+    margin:0px auto;
+    width:65%;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-top:50px;
+
+}
+
+footer p{
+    padding:15px;
+    float: left;
+
+}
+.subir{
+    color:white;
+    text-decoration: none;
+    display: block;
+    float: right;
+    margin-top: 13.5px;
+}
+
+.bx-wrapper, .bx-viewport{
+    height: 250px !important;
+}
+
+#selector-theme{
+    position: fixed;
+    top:40%;
+    background: rgba(51,51,51, 0.5);
+    width:50px;
+    height:100px;
+}
+
+#to-green,
+#to-red,
+#to-blue{
+    width:25px;
+    height:25px;
+    border: 1px solid white;
+    display: block;
+    margin:0px auto;
+    margin-top:5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+
+#to-green{
+    background: #F781F3;
+
+}
+
+#to-red{
+    background:#01DFA5;
+}
+
+#to-blue{
+    background: #848484;
+}
+
+#acordeon{
+    width:67%;
+    float:left;
+    margin-top:48px ;
+}
+
+#box h2{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    font-weight:bolder;
+}
+
+#reloj{
+    float: left;
+    font-size:30px;
+    font-weight:bold;
+    font-family:'Courier New', Courier, monospace;
+    color: #333;
+    border:5px dashed #333;
+    width: 60%;
+    padding:30px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 48px;
+}
+
+#contact{
+    float:left;
+    width: 60%;
+    margin:0 auto;
+    margin-top: 40px;
+    text-align: justify;
+
+
+}
+
+#form_contact label{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+
+
+
+}
+
+#form_contact input{
+    margin-top: 20px;
+}
+
+.stick{
+position: sticky;
+top:80px;
+display:inline-block;
+
+}

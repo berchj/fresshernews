@@ -1,0 +1,18 @@
+#logo{
+    background: #848484;
+}
+#menu ul li:hover{
+    background: #848484;
+}
+.leermas{
+
+    background: #848484;
+
+
+}
+
+body{
+    background: url('../img/verde.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
